@@ -6,6 +6,7 @@ Fraudulent credit card transaction is still one of the obstacles that companies 
 Credit card fraud detection could define as the unauthorixed usage of the card, unusual transaction behavior, or an inactive card. The importance of fraud detection is withdrawing illegal financial actions. 
 
 # Dataset and Challenges
+The dataset could be found in kaggle: https://www.kaggle.com/mlg-ulb/creditcardfraud.
 The dataset consists of +200k rows with 20+ features that have gone trough a PCA pipeline. Only time and amount variable contain non transformed features. The dataset is highly imbalanced, there is a lot of normal data in comparison with abnormal data. For instance, 90 percent of data points are included for one class and 10 percent for the other. It caused performance measures (aka standard optimiza-
 tion criteria) not to be as effective.
 
